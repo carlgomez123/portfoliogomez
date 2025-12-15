@@ -557,7 +557,8 @@ a {
 .frontSide,
 .frontSide::before {
 
-  background-image: url("/userAsset/aayush_flower.jpg");
+  /* background-image: url("/userAsset/aayush_flower.jpg"); */
+  background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
   background-size: cover;
   background-position: center;
 
@@ -756,7 +757,7 @@ a {
 }
 
 #project1 {
-  background-image: url(./projects/osa.png);
+  background-image: url(/projects/osa.png);
   right: 5%;
   margin-top: 5rem;
 }
